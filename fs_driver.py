@@ -132,5 +132,4 @@ def main(mountpoint, root):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
-    sys.argv = ['/home/joey/fs_emu/fusedate.py', '/home/joey/fs_emu/', '/home/joey/mountdir/']
     main(sys.argv[2], sys.argv[1])
